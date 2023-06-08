@@ -48,6 +48,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           themes: <Themes />,
           welcome: <Welcome />,
           whoami: <GeneralOutput>Visitor</GeneralOutput>,
+          arta: <Welcome />,
         }[cmd]
       }
     </OutputContainer>

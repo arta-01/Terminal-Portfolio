@@ -15,7 +15,8 @@ const About: React.FC = () => {
       </p>
       <p>
         I am passionate about writing codes and <br />
-        developing web applications to solve real-life challenges.
+        developing web applications to solve real-life challenges. <br /><br />
+               <HighlightSpan>" 𝒞ℴ𝒹ℯ 𝒾𝓈 ℒ𝒶𝓌 "</HighlightSpan>
       </p>
     </AboutWrapper>
   );
