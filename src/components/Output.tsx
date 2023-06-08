@@ -11,6 +11,8 @@ import History from "./commands/History";
 import Projects from "./commands/Projects";
 import Socials from "./commands/Socials";
 import Themes from "./commands/Themes";
+import Skills from "./commands/Skills";
+
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -49,6 +51,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           welcome: <Welcome />,
           whoami: <GeneralOutput>Visitor</GeneralOutput>,
           arta: <Welcome />,
+          skills : <Skills />,
         }[cmd]
       }
     </OutputContainer>
