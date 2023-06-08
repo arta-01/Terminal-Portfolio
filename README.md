@@ -1,4 +1,4 @@
-# Terminal Portfolio Website by Sat Naing
+# Terminal Portfolio Website by Arta Yqb
 
 ![Terminal Portfolio Website by Arta Yaqubi](https://user-images.githubusercontent.com/53733092/194220661-e2ff8b4c-f64a-4b64-a836-c52fae6bbcda.png)
 
