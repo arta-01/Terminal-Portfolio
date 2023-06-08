@@ -39,7 +39,7 @@ const Socials: React.FC = () => {
       {socials.map(({ id, title, url, tab }) => (
         <CmdList key={title}>
           <Cmd>{`${id}. ${title}`}</Cmd>
-          {generateTabs(tab)}
+          {generateTabs()}
           <CmdDesc>- {url}</CmdDesc>
         </CmdList>
       ))}
