@@ -1,7 +1,6 @@
 import {
   Cmd,
   HeroContainer,
-  Link,
   PreImg,
   PreName,
   PreNameMobile,
@@ -39,18 +38,12 @@ const Welcome: React.FC = () => {
           `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
-        <Seperator>----</Seperator>
-        <div>
-          This project's source code can be found in this project's{" "}
-          <Link href="https://github.com/satnaing/terminal-portfolio">
-            GitHub repo
-          </Link>
-          .
+        <div>Welcome to my terminal portfolio.
+          Just rty it..
         </div>
         <Seperator>----</Seperator>
         <div>
-          For a list of available commands, type `<Cmd>help</Cmd>`.
+          For a list of available Commands, type `<Cmd>help</Cmd>`.
         </div>
       </div>
       <div className="illu-section">
