@@ -45,12 +45,12 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           help: <Help />,
           history: <History />,
           projects: <Projects />,
+          arta: <About />,
           pwd: <GeneralOutput>/home/Artayqb</GeneralOutput>,
           socials: <Socials />,
           themes: <Themes />,
           welcome: <Welcome />,
           whoami: <GeneralOutput>Visitor</GeneralOutput>,
-          arta: <Welcome />,
           skills : <Skills />,
         }[cmd]
       }

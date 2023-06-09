@@ -11,7 +11,7 @@ const About: React.FC = () => {
         Hi, my name is <HighlightSpan>Arta yaqubi</HighlightSpan> !
       </p>
       <p>
-        I'm <HighlightAlt>a Frontend & Blockchain Developer</HighlightAlt> based in Shiraz - Fars
+        I'm <HighlightAlt>a Frontend Developer</HighlightAlt> and <HighlightAlt> Blockchain Programmer</HighlightAlt> based in Shiraz - Fars
       </p>
       <p>
         I am passionate about writing codes and <br />
