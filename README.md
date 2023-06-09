@@ -29,7 +29,7 @@ My perfolio website in terminal version developed with React, TypeScript and Sty
 ## Multiple Themes
 
 Currently, this website supports 6 themes. Type `themes` in the terminal for more info.
-![terminal-portfolio-themes](https://user-images.githubusercontent.com/53733092/194221801-94f1c28b-4865-4b7f-a73e-d41132519bea.png)
+
 
 ## Lighthouse Score
 
