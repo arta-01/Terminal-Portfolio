@@ -78,7 +78,7 @@ const socials = [
     id:5,
     title: "Stackoverflow",
     url:"https://stackoverflow.com/users/18847570",
-    tab:"0",
+    tab:0,
   }
 
 ];
