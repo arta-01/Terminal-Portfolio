@@ -50,7 +50,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           socials: <Socials />,
           themes: <Themes />,
           welcome: <Welcome />,
-          whoami: <GeneralOutput>Visitor</GeneralOutput>,
+          whoami: <GeneralOutput>~$Visitor</GeneralOutput>,
           skills : <Skills />,
         }[cmd]
       }
