@@ -31,7 +31,7 @@
     "react": {
       "version": "detect"
     },
-    "import/resolver": {
+    "import/resolver":{
       "typescript": {}
     }
   }
