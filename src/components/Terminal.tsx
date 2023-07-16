@@ -45,7 +45,7 @@ export const commands: Command = [
   { cmd: "welcome", desc: "display hero section", tab: 6 },
   { cmd: "whoami", desc: "about current user", tab: 7 },
 
-  
+
 
 
 ];
