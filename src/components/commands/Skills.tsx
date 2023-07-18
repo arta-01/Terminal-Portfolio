@@ -20,7 +20,7 @@ const About: React.FC = () => {
                 Blockchain  <br />
                 Solidity  <br />
                 Smart Contract  <br />
-                TS  <br />
+                TypeScript  <br />
                 Network  <br />
                 Git  <br />
                 Digital Marketing  <br />

@@ -13,6 +13,7 @@ import {
 import { termContext } from "../Terminal";
 import Usage from "../Usage";
 
+
 const Projects: React.FC = () => {
   const { arg, history, rerender } = useContext(termContext);
 
@@ -25,6 +26,7 @@ const Projects: React.FC = () => {
       projects.forEach(({ id, url }) => {
         id === parseInt(arg[1]) && window.open(url, "_blank");
       });
+
     }
   }, [arg, rerender, currentCommand]);
 
@@ -38,6 +40,7 @@ const Projects: React.FC = () => {
     checkArg()
   ) : (
     <div data-testid="projects">
+
       <ProjectsIntro>
         “Talk is cheap. Show me the code”? I got you. <br />
         Here are some of my projects you shouldn't misss
@@ -54,6 +57,7 @@ const Projects: React.FC = () => {
 };
 
 const projects = [
+
   {
     id: 1,
     title: "Shine",
@@ -72,6 +76,7 @@ const projects = [
     desc: "a simple NFT collection with pure Solidity",
     url: "https://github.com/arta-01/NFt-Collection",
   },
+  
 ];
 
 export default Projects;

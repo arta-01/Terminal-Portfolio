@@ -4,6 +4,7 @@ import { Wrapper } from "../styles/Output.styled";
 import { termContext } from "../Terminal";
 
 const Echo: React.FC = () => {
+
   const { arg } = useContext(termContext);
 
   let outputStr = _.join(arg, " ");
@@ -13,5 +14,4 @@ const Echo: React.FC = () => {
 
   return <Wrapper>{outputStr}</Wrapper>;
 };
-
 export default Echo;
