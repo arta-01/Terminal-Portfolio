@@ -10,12 +10,15 @@ const About: React.FC = () => {
       <p>
         Hi, my name is <HighlightSpan>Arta yaqubi</HighlightSpan> !
       </p>
+
       <p>
         I'm <HighlightAlt>a Frontend Developer</HighlightAlt> and <HighlightAlt> Blockchain Programmer</HighlightAlt> based in Shiraz - Fars
       </p>
+
       <p>
         I am passionate about writing codes and <br />
         developing web applications to solve real-life challenges. <br /><br />
+        
         <HighlightSpan>" 𝒞ℴ𝒹ℯ 𝒾𝓈 ℒ𝒶𝓌 "</HighlightSpan>
       </p>
     </AboutWrapper>
