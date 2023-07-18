@@ -12,6 +12,7 @@ import { termContext } from "../Terminal";
 import theme from "../styles/themes";
 import Usage from "../Usage";
 
+
 const myThemes = _.keys(theme);
 
 const Themes: React.FC = () => {
@@ -27,6 +28,7 @@ const Themes: React.FC = () => {
     if (checkThemeSwitch(rerender, currentCommand, myThemes)) {
       themeSwitcher?.(theme[currentCommand[2]]);
     }
+
   }, [arg, rerender, currentCommand]);
 
   /* ===== check arg is valid ===== */
@@ -36,6 +38,7 @@ const Themes: React.FC = () => {
   return arg.length > 0 || arg.length > 2 ? (
     checkArg()
   ) : (
+
     <Wrapper data-testid="themes">
       <ThemesWrapper>
         {myThemes.map(myTheme => (
@@ -46,5 +49,6 @@ const Themes: React.FC = () => {
     </Wrapper>
   );
 };
+
 
 export default Themes;
