@@ -18,7 +18,7 @@ const Email: React.FC = () => {
 
   return (
     <Wrapper>
-      <span>artayqb@gmail.com</span>
+      <span>a r t a y q b @ g m a i l . c o m</span>
     </Wrapper>
   );
 };
