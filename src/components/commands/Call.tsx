@@ -4,7 +4,7 @@ import {
     HighlightSpan,
 } from "../styles/About.styled";
 
-const About: React.FC = () => {
+const Call: React.FC = () => {
     return (
         <AboutWrapper data-testid="about">
             <p>
@@ -17,4 +17,4 @@ const About: React.FC = () => {
     );
 };
 
-export default About;
+export default Call;
