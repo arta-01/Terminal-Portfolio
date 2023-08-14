@@ -37,6 +37,7 @@ export const commands: Command = [
   // { cmd: "gui", desc: "go to my portfolio in GUI", tab: 10 },
   { cmd: "help", desc: "check available commands", tab: 9 },
   { cmd: "arta", desc: "about Arta", tab: 9 },
+  { cmd: "call", desc: "Contact me", tab: 9 },
   { cmd: "history", desc: "view command history", tab: 6 },
   { cmd: "projects", desc: "view projects that I've coded", tab: 5 },
   { cmd: "pwd", desc: "print current working directory", tab: 10 },
@@ -44,6 +45,8 @@ export const commands: Command = [
   { cmd: "themes", desc: "check available themes", tab: 7 },
   { cmd: "welcome", desc: "display hero section", tab: 6 },
   { cmd: "whoami", desc: "about current user", tab: 7 },
+  { cmd: "whoami", desc: "about current user", tab: 7 },
+
 
 
 

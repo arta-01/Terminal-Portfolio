@@ -12,6 +12,7 @@ import Projects from "./commands/Projects";
 import Socials from "./commands/Socials";
 import Themes from "./commands/Themes";
 import Skills from "./commands/Skills";
+import Call from "./commands/Call";
 import Hello from "./commands/Hello";
 
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
@@ -53,7 +54,8 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           welcome: <Welcome />,
           whoami: <GeneralOutput>~$Visitor</GeneralOutput>,
           skills: <Skills />,
-          hello: <Hello />
+          hello: <Hello />,
+          call: <Call />,
         }[cmd]
       }
     </OutputContainer>
