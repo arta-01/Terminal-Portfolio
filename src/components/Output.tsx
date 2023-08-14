@@ -12,7 +12,7 @@ import Projects from "./commands/Projects";
 import Socials from "./commands/Socials";
 import Themes from "./commands/Themes";
 import Skills from "./commands/Skills";
-import Call from "./commands/call";
+import Call from "./commands/Call";
 import Hello from "./commands/Hello";
 
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
