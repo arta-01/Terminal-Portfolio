@@ -16,6 +16,7 @@ const Help: React.FC = () => {
 
       {commands.map(({ cmd, desc, tab }) => (
         <CmdList key={cmd}>
+
           <Cmd>{cmd}</Cmd>
           {generateTabs(tab)}
           <CmdDesc>- {desc}</CmdDesc>
@@ -24,6 +25,7 @@ const Help: React.FC = () => {
       
       <KeyContainer>
         <div>Tab or Ctrl + i&nbsp; =&gt; autocompletes the command</div>
+        
         <div>Up Arrow {generateTabs(5)} =&gt; go back to previous command</div>
         <div>Ctrl + l {generateTabs(5)} =&gt; clear the terminal</div>
       </KeyContainer>
