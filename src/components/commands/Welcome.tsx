@@ -14,7 +14,7 @@ const Welcome: React.FC = () => {
       <div className="info-section">
         <PreName>
           {`        
-                           
+           #                
           # #    #####   #######   ##
          #   #   #    #     #     #  #
         #     #  #    #     #    #    #
