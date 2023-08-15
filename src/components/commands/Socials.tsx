@@ -87,12 +87,6 @@ const socials = [
     tab:0,
   },
   {
-    id:7,
-    title: "Number :",
-    url:"+989178376279 || +989017896279",
-    tab:0,
-  },
-  {
     id:8,
     title: "CV",
     url:"https://jobvision.ir/cv/63300922-021827",
