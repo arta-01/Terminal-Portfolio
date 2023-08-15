@@ -1,6 +1,5 @@
 import {
     AboutWrapper,
-    HighlightAlt,
     HighlightSpan,
 } from "../styles/About.styled";
 
