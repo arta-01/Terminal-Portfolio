@@ -19,6 +19,7 @@ const Help: React.FC = () => {
 
           <Cmd>{cmd}</Cmd>
           {generateTabs(tab)}
+          
           <CmdDesc>- {desc}</CmdDesc>
         </CmdList>
       ))}
