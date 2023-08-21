@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
 
       <ProjectsIntro>
         “Talk is cheap. Show me the code”? I got you. <br />
-        Here are some of my projects you shouldn't misss
+        Here are some of my projects you shouldn't misss _
       </ProjectsIntro>
       {projects.map(({ id, title, desc }) => (
         <ProjectContainer key={id}>
@@ -64,6 +64,7 @@ const projects = [
     desc: "Website for selling jewelry and made by React.",
     url: "https://shine.zigmapv.top",
   },
+  
   {
     id: 2,
     title: "DEX",
