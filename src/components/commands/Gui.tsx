@@ -9,7 +9,7 @@ const Gui: React.FC = () => {
   /* ===== get current command ===== */
   const currentCommand = _.split(history[0], " ");
 
-  /* ===== check current command makes redirect ===== */
+  /* ===== check current command makes redirect === */
 
   if (rerender && currentCommand[0] === "gui") {
 
@@ -19,4 +19,4 @@ const Gui: React.FC = () => {
   return <span></span>;
 };
 
-export default Gui;
+export default Gui ;
