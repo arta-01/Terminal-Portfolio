@@ -30,7 +30,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
   const specialCmds = ["projects", "socials", "themes", "echo"];
 
   // return 'Usage: <cmd>' if command arg is not valid
-  // eg: about tt
+ 
   if (!specialCmds.includes(cmd) && arg.length > 0)
     return <UsageDiv data-testid="usage-output">Usage: {cmd}</UsageDiv>;
 
