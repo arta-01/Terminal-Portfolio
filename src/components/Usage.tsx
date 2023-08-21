@@ -1,9 +1,10 @@
-import { UsageDiv } from "./styles/Output.styled";
+import { UsageDiv } from "./styles/Output.styled"
 
 type Props = {
   cmd: "themes" | "projects" | "socials";
   marginY?: boolean;
 };
+
 
 const arg = {
 
