@@ -3,6 +3,7 @@ import {
     HighlightSpan,
 } from "../styles/About.styled";
 
+
 const Call: React.FC = () => {
     return (
         <AboutWrapper data-testid="about">

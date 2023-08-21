@@ -25,6 +25,7 @@ const eduBg = [
     title: "Nursing",
     desc: "Shafa University | 2019 ~ 2022",
   },
+  
   {
     title: "Soldier",
     desc: "Military service | 2023 ... 2025",

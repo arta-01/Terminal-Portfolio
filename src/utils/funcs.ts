@@ -19,7 +19,7 @@ export const generateTabs = (num = 0): string => {
  * @param {string[]} arg - The arg array
  * @param {string} action - The action to compare | "go" | "set"
  * @param {string[]} options - Option array to compare | "dark" | "1"
- * @returns {boolean} boolean
+ * @returns {boolean} 
  */
 export const isArgInvalid = (
   arg: string[],
@@ -27,7 +27,7 @@ export const isArgInvalid = (
   options: string[]
 ) => arg[0] !== action || !_.includes(options, arg[1]) || arg.length > 2;
 
-/**
+/*
  * Transform current cmd & arg into array
  * then return back the array
  * @param {string[]} history - The history array
