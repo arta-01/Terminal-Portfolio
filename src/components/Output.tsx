@@ -14,6 +14,8 @@ import Themes from "./commands/Themes";
 import Skills from "./commands/Skills";
 import Call from "./commands/Call";
 import Hello from "./commands/Hello";
+import Exit from "./commands/Exit";
+
 
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
@@ -56,6 +58,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           skills: <Skills />,
           hello: <Hello />,
           call: <Call />,
+          exit : <Exit/>
         }[cmd]
       }
     </OutputContainer>
