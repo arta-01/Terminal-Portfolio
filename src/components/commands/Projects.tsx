@@ -46,6 +46,7 @@ const Projects: React.FC = () => {
         Here are some of my projects you shouldn't misss _
       </ProjectsIntro>
       {projects.map(({ id, title, desc }) => (
+
         <ProjectContainer key={id}>
           <ProjectTitle>{`${id}. ${title}`}</ProjectTitle>
           <ProjectDesc>{desc}</ProjectDesc>
@@ -64,7 +65,7 @@ const projects = [
     desc: "Website for selling jewelry and made by React.",
     url: "https://shine.zigmapv.top",
   },
-  
+
   {
     id: 2,
     title: "DEX",
@@ -77,7 +78,7 @@ const projects = [
     desc: "a simple NFT collection with pure Solidity",
     url: "https://github.com/arta-01/NFt-Collection",
   },
-  
+
 ];
 
 export default Projects;

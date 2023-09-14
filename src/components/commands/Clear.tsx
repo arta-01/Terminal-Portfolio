@@ -8,6 +8,7 @@ const Clear: React.FC = () => {
   useEffect(() => {
     if (arg.length < 1) clearHistory?.();
 
+
   }, []);
   return arg.length > 0 ? <UsageDiv>Usage: clear</UsageDiv> : <></>;
 };

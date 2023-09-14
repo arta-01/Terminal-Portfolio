@@ -40,6 +40,7 @@ const Welcome: React.FC = () => {
         <div>Welcome to my terminal portfolio.
           Just try it..
         </div>
+        
         <Seperator>----</Seperator>
         <div>
           For a list of available Commands, type `<Cmd>help</Cmd>`.
