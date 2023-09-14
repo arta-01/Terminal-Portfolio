@@ -1,7 +1,7 @@
 import { Wrapper } from "../styles/Output.styled";
 
 type Props = {
-  
+
   children: string;
 };
 

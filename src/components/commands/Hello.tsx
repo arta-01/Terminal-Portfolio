@@ -6,7 +6,7 @@ import {
 
 import {
     Cmd
-  } from "../styles/Welcome.styled";
+} from "../styles/Welcome.styled";
 
 const Hello: React.FC = () => {
 
