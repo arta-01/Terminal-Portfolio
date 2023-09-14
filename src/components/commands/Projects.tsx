@@ -46,6 +46,7 @@ const Projects: React.FC = () => {
         Here are some of my projects you shouldn't misss _
       </ProjectsIntro>
       {projects.map(({ id, title, desc }) => (
+        
         <ProjectContainer key={id}>
           <ProjectTitle>{`${id}. ${title}`}</ProjectTitle>
           <ProjectDesc>{desc}</ProjectDesc>

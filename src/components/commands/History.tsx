@@ -8,6 +8,7 @@ const History: React.FC = () => {
 
   const { history, index } = useContext(termContext);
   const currentHistory = _.reverse(_.slice(history, index));
+  
 
   return (
 

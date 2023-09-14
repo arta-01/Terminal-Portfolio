@@ -20,6 +20,7 @@ const About: React.FC = () => {
         developing web applications to solve real-life challenges. <br /><br />
         
         <HighlightSpan>" 𝒞ℴ𝒹ℯ 𝒾𝓈 ℒ𝒶𝓌 "</HighlightSpan>
+        
       </p>
     </AboutWrapper>
   );

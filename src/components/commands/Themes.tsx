@@ -40,6 +40,7 @@ const Themes: React.FC = () => {
   ) : (
 
     <Wrapper data-testid="themes">
+      
       <ThemesWrapper>
         {myThemes.map(myTheme => (
           <ThemeSpan key={myTheme}>{myTheme}</ThemeSpan>

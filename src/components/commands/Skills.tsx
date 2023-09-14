@@ -7,6 +7,7 @@ import {
 const About: React.FC = () => {
     return (
         <AboutWrapper data-testid="about">
+            
             <p>
                 <HighlightSpan>my Skills</HighlightSpan> :
             </p>
@@ -16,6 +17,7 @@ const About: React.FC = () => {
                 Bootstrap  <br />
                 FlexBox  <br />
                 React js  <br />
+
                 ES7  <br />
                 Blockchain  <br />
                 Solidity  <br />
