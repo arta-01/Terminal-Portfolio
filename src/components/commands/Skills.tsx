@@ -7,7 +7,7 @@ import {
 const About: React.FC = () => {
     return (
         <AboutWrapper data-testid="about">
-            
+
             <p>
                 <HighlightSpan>my Skills</HighlightSpan> :
             </p>

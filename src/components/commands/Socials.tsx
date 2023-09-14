@@ -75,22 +75,22 @@ const socials = [
     tab: 0,
   },
   {
-    id:5,
+    id: 5,
     title: "Stackoverflow",
-    url:"https://stackoverflow.com/users/18847570",
-    tab:0,
+    url: "https://stackoverflow.com/users/18847570",
+    tab: 0,
   },
   {
-    id:6,
+    id: 6,
     title: "Telegram",
-    url:"UN : @Arta_01",
-    tab:0,
+    url: "UN : @Arta_01",
+    tab: 0,
   },
   {
-    id:8,
+    id: 8,
     title: "CV",
-    url:"https://jobvision.ir/cv/63300922-021827",
-    tab:0,
+    url: "https://jobvision.ir/cv/63300922-021827",
+    tab: 0,
   },
 
 ];
